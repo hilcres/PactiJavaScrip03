@@ -7,10 +7,10 @@ function inicio(){
     document.querySelector("body").insertAdjacentHTML("beforeend",`    
     <h1>Mi Practica JavaScript Nro 03</h1>
     <input type="text" id="campo">
-
     <button>Aceptar</button>
     <div id="saludo"></div>`);
     document.querySelector("button").onclick=leer;
+
 }
 
 function leer(){
